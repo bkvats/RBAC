@@ -27,7 +27,7 @@ export default function Toast() {
         <div className={`fixed top-10 py-2 px-3 text-white z-50 left-6 lg:left-[32.5%] w-[90%] lg:w-[35%] h-14 rounded-xl ${toastMap.get(type)[1]} ${showToast ? "scale-100" : "scale-0"} flex items-center justify-between text-xl font-bold transition origin-top "`}>
             <div className="flex gap-4 items-center">
                 {toastMap.get(type)[0]}
-                <p className="line-clamp-2">{message}</p>
+                <p className="line-clamp-2 text-base lg:text-xl md:text-lg">{message}</p>
             </div>
             <button onClick={() => {dispatch(setShowToast(false))}} className="hover:bg-black hover:bg-opacity-30 p-1 rounded-full">
                 <IoMdClose size={"1.4rem"}/>

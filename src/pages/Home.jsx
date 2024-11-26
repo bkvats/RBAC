@@ -3,8 +3,10 @@ import { NavLink } from "react-router-dom";
 import { FaUsers } from "react-icons/fa6";
 import { FaUserGear } from "react-icons/fa6";
 import { MdOutlineSecurity } from "react-icons/md";
+import { useSelector } from "react-redux";
 
 export default function Home() {
+    const {isLoggedIn, currentUser} = useSelector(state => state.user);
     const keyFeatures = [
         {
             name: "User Management",
@@ -55,11 +57,11 @@ export default function Home() {
                         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                             <span className="space-y-8 my-2">
                                 <h2 className="text-xl md:text-2xl font-light text-gray-500 dark:text-gray-400">Secure | Simple | User-Friendly</h2>
-                                <h1 className="text-5xl lg:text-6xl text-black font-semibold dark:text-white font-['Parkinsans']">RBAC System</h1>
+                                <h1 className="text-5xl lg:text-6xl text-black font-semibold dark:text-white font-['Parkinsans']">{isLoggedIn ? `Welcome ${currentUser.name.split(" ")[0]}`: "RBAC System"}</h1>
                             </span>
                             <p className="my-8 leading-relaxed text-xl text-gray-500 dark:text-gray-400 font-light w-[90%]">Manage user roles and permissions effortlessly with this Role-Based Access Control solution.</p>
                             <div className="flex justify-center">
-                                <NavLink to={"/login"} className="text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">Try Now</NavLink>
+                                <NavLink to={isLoggedIn ? "/dashboard" : "/login"} className="text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">{isLoggedIn ? "Dashboard" : "Try Now"}</NavLink>
                                 <NavLink className="ml-4 text-gray-700 bg-gray-100 border-2 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Read Docs</NavLink>
                             </div>
                         </div>

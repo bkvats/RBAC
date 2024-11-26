@@ -1,4 +1,3 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
@@ -8,6 +7,7 @@ import Login from './pages/Login.jsx'
 import AccessBlocked from './pages/AccessBlocked.jsx'
 import { Provider } from 'react-redux'
 import { store } from './store/store.js'
+import AuthLayout from './components/AuthLayout.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +15,7 @@ const router = createBrowserRouter(
       <Route path='' element={<Home />}/>
       <Route path='/login' element={<Login />}/>
       <Route path='/access-blocked' element={<AccessBlocked />}/>
+      <Route path='/dashboard' element={<AuthLayout />} />
     </Route>
   )
 )

@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "name": "Jane Edwards",
-    "email": "jane.edwards@example.com",
+    "name": "Bhupender Kumar Sharma",
+    "email": "bkvats2394@gmail.com",
     "role": "admin",
-    "status": "inactive",
+    "status": "active",
     "permissions": [
       "read",
       "write",
       "delete"
     ],
-    "password": "abc969"
+    "password": "12345"
   },
   {
     "id": 2,
