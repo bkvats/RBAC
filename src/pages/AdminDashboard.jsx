@@ -16,7 +16,7 @@ export default function AdminDashboard() {
     const [allUsers, setAllUsers] = useState(database);
     const [searchInput, setSearchInput] = useState("");
     return (
-        <section className="w-full p-4 lg:w-3/4 mx-auto border-0 border-red-700">
+        <section className="w-full p-4 lg:w-3/4 mx-auto">
             <div className="max-w-md mx-auto my-10">
                 <div className="">
                     <div className="absolute top-32 mt-[11px] flex items-center ps-3 pointer-events-none">
@@ -37,15 +37,15 @@ export default function AdminDashboard() {
                 {
                     allUsers.map((i, index) => (
                         <div className="my-2 bg-white dark:bg-gray-700 p-4 rounded-xl flex flex-col gap-3 lg:gap-0 lg:flex-row justify-between lg:items-center" key={i.id}>
-                            <div className="flex gap-2 items-center border-0 border-red-500">
+                            <div className="flex gap-2 items-center">
                                 <div className={`border-2  text-xl font-light min-w-12 min-h-12 max-w-12 max-h-12 text-center text-white py-2 font-['Parkinsans'] ${i.bgColor} rounded-full`} onClick={() => { setUserOptionsVisible(prev => !prev) }}> {getShortName(i.name)} </div>
                                 <div>
                                     <span className="line-clamp-1 dark:text-white">{i.name}</span>
                                     <span className="line-clamp-1 text-gray-500 dark:text-gray-300 font-light">{i.email}</span>
                                 </div>
                             </div>
-                            <div className="w-full lg:w-3/5 grid grid-cols-3 items-center border-0 border-green-500">
-                                <span className="border-0 border-red-500 dark:text-white">{i.role.toUpperCase()}</span>
+                            <div className="w-full lg:w-3/5 grid grid-cols-3 items-center">
+                                <span className="dark:text-white">{i.role.toUpperCase()}</span>
                                 <button className={`inline-flex gap-2 w-fit items-center ${i.status === "Active" ? "mx-2 bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300" : "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300"} font-medium px-2.5 py-0.5 rounded-full`} onClick={() => {
                                     allUsers[index].status = i.status === "Active" ? "Inactive" : "Active";
                                     setAllUsers([...allUsers]);
