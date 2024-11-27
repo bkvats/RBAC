@@ -7,7 +7,7 @@
 #### React Router DOM: For handling navigation and routing.
 #### React Redux: For managing states and data efficiently.
 #### Tailwind CSS: For clean, responsive, and modern styling.
-#### React Icons: For 
+#### React Icons: For providing icons to enhace ui looks
 
 # Features
 ### User Features:
