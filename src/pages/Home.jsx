@@ -61,7 +61,7 @@ export default function Home() {
                             </span>
                             <p className="my-8 leading-relaxed text-xl text-gray-500 dark:text-gray-400 font-light w-[90%]">Manage user roles and permissions effortlessly with this Role-Based Access Control solution.</p>
                             <div className="flex justify-center">
-                                <NavLink to={isLoggedIn ? "/dashboard" : "/login"} className="text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">{isLoggedIn ? "Dashboard" : "Try Now"}</NavLink>
+                                <NavLink to={isLoggedIn ? "/dashboard" : "/login"} className="text-white  py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">{isLoggedIn ? "Dashboard" : "Try Now"}</NavLink>
                                 <NavLink className="ml-4 text-gray-700 bg-gray-100 border-2 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Read Docs</NavLink>
                             </div>
                         </div>
