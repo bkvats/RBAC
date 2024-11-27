@@ -5,12 +5,14 @@ import AdminDashboard from "../pages/AdminDashboard";
 import UserDashboard from "../pages/UserDashboard";
 
 export default function AuthLayout() {
-    const {isLoggedIn, currentUser} = useSelector(state => state.user);
+    const {isLoading, isLoggedIn, currentUser} = useSelector(state => state.user);
     const navigate = useNavigate();
     useEffect(() => {
-        if (!isLoggedIn) navigate("/login");
-    }, [isLoggedIn]);
+        console.log(isLoading, isLoggedIn);
+        if (!isLoading && !isLoggedIn) navigate("/login");
+    }, [isLoading, isLoggedIn]);
+    if (isLoading) return;
     return (
-        isLoggedIn && currentUser.role === "admin" ? <AdminDashboard /> : <UserDashboard />
+        isLoggedIn ? currentUser.role === "admin" ? <AdminDashboard /> : <UserDashboard /> : ""
     )
 }

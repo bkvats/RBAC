@@ -8,6 +8,8 @@ import AccessBlocked from './pages/AccessBlocked.jsx'
 import { Provider } from 'react-redux'
 import { store } from './store/store.js'
 import AuthLayout from './components/AuthLayout.jsx'
+import Contact from './pages/Contact.jsx'
+import About from './pages/About.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +18,8 @@ const router = createBrowserRouter(
       <Route path='/login' element={<Login />}/>
       <Route path='/access-blocked' element={<AccessBlocked />}/>
       <Route path='/dashboard' element={<AuthLayout />} />
+      <Route path='/contact' element={<Contact />} />
+      <Route path='/about' element={<About />} />
     </Route>
   )
 )

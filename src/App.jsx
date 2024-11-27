@@ -5,15 +5,21 @@ import Footer from "./components/Footer";
 import Toast from "./components/Toast";
 import Loader from "./components/Loader";
 import { useDispatch, useSelector } from "react-redux";
-import { login } from "./store/userSlice";
+import { isLoading, login, logout } from "./store/userSlice";
 
 export default function App() {
   const isLoggedIn = useSelector(state => state.user.isLoggedIn);
   const dispatch = useDispatch();
 
   useEffect(() => {
+    // checking user is logged in or not via API
+    // const response = await axios("/api/v1/user/current-user");
+    // if (response.status === 200) dispatch(login(response.data));
     if (localStorage.getItem("currentUser")) dispatch(login(JSON.parse(localStorage.getItem("currentUser"))));
-  }, [isLoggedIn]);
+    else {
+      dispatch(logout())
+    }
+  }, [isLoading, isLoggedIn]);
   return (
     <>
       <Header />

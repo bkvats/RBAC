@@ -9,6 +9,7 @@ import { MdDashboard } from "react-icons/md";
 import { GrDocumentPerformance } from "react-icons/gr";
 import { MdClose } from "react-icons/md";
 import { logout } from "../store/userSlice";
+import getShortName from "../utils/getShortName";
 
 export default function Header() {
     const { isLoggedIn, currentUser } = useSelector(state => state.user);
@@ -53,8 +54,8 @@ export default function Header() {
                     }
                 </nav>
                 {isLoggedIn ? <div>
-                    <button className="border-2 text-xl font-['Parkinsans'] hover:border-orange-500 bg-white rounded-full py-1 px-[11px]" onClick={() => { setUserOptionsVisible(prev => !prev) }}> {currentUser.name.at(0)} </button>
-                    <div className={`${userOptionsVisible ? "scale-100" : "scale-0"}  absolute  top-14 right-5 border-[1px] border-white dark:border-black bg-white dark:bg-gray-700 rounded-lg overflow-auto transition-transform origin-top-right`}>
+                    <button className={`border-2 text-xl font-['Parkinsans'] hover:border-orange-500 ${userOptionsVisible && "border-orange-500"} bg-white rounded-full w-12 h-12 text-center py-2`} onClick={() => { setUserOptionsVisible(prev => !prev) }}> {getShortName(currentUser.name)} </button>
+                    <div className={`${userOptionsVisible ? "scale-100" : "scale-0"} absolute  top-14 right-5 border-[1px] border-white dark:border-black bg-white dark:bg-gray-700 rounded-lg overflow-auto transition-transform origin-top-right`}>
                         <ul className="bg-white dark:bg-gray-700 w-full py-1 px-2 text-lg">
                             {
                                 userOptions.map((i) => (

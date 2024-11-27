@@ -10,7 +10,7 @@ export default function Login() {
     const db = localStorage.getItem("database") || database;
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const {isLoggedIn} = useSelector(state => state.user);
+    const {isLoading, isLoggedIn} = useSelector(state => state.user);
     const dispatch = useDispatch();
     const navigate = useNavigate();
     
@@ -18,7 +18,7 @@ export default function Login() {
         if (isLoggedIn) {
             navigate("/");
         }
-    }, [isLoggedIn]);
+    }, [isLoading, isLoggedIn]);
     return (
         <section>
             <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto">
