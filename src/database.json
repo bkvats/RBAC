@@ -11,7 +11,7 @@
           "delete": true
       },
       "password": "12345",
-      "bgColor": "bg-yellow-400",
+      "avatar": "bg-fuchsia-400",
       "showPermissions": false
   },
   {
@@ -26,7 +26,7 @@
           "delete": false
       },
       "password": "user697",
-      "bgColor": "bg-pink-400",
+      "avatar": "bg-pink-400",
       "showPermissions": false
   },
   {
@@ -41,7 +41,7 @@
           "delete": false
       },
       "password": "abc195",
-      "bgColor": "bg-amber-400",
+      "avatar": "bg-amber-400",
       "showPermissions": false
   },
   {
@@ -56,7 +56,7 @@
           "delete": true
       },
       "password": "easy376",
-      "bgColor": "bg-teal-400",
+      "avatar": "bg-teal-400",
       "showPermissions": false
   },
   {
@@ -71,7 +71,7 @@
           "delete": false
       },
       "password": "user921",
-      "bgColor": "bg-lime-400",
+      "avatar": "bg-lime-400",
       "showPermissions": false
   },
   {
@@ -86,7 +86,7 @@
           "delete": true
       },
       "password": "pass516",
-      "bgColor": "bg-yellow-400",
+      "avatar": "bg-yellow-400",
       "showPermissions": false
   },
   {
@@ -101,7 +101,7 @@
           "delete": true
       },
       "password": "user354",
-      "bgColor": "bg-blue-400",
+      "avatar": "bg-blue-400",
       "showPermissions": false
   },
   {
@@ -116,7 +116,7 @@
           "delete": true
       },
       "password": "easy185",
-      "bgColor": "bg-indigo-400",
+      "avatar": "bg-indigo-400",
       "showPermissions": false
   },
   {
@@ -131,7 +131,7 @@
           "delete": true
       },
       "password": "user674",
-      "bgColor": "bg-fuchsia-400",
+      "avatar": "bg-fuchsia-400",
       "showPermissions": false
   },
   {
@@ -146,7 +146,7 @@
           "delete": true
       },
       "password": "abc618",
-      "bgColor": "bg-teal-400",
+      "avatar": "bg-teal-400",
       "showPermissions": false
   },
   {
@@ -161,7 +161,7 @@
           "delete": true
       },
       "password": "easy261",
-      "bgColor": "bg-violet-400",
+      "avatar": "bg-violet-400",
       "showPermissions": false
   },
   {
@@ -176,7 +176,7 @@
           "delete": true
       },
       "password": "pass956",
-      "bgColor": "bg-fuchsia-400",
+      "avatar": "bg-fuchsia-400",
       "showPermissions": false
   },
   {
@@ -191,7 +191,7 @@
           "delete": false
       },
       "password": "pass738",
-      "bgColor": "bg-rose-400",
+      "avatar": "bg-rose-400",
       "showPermissions": false
   },
   {
@@ -206,7 +206,7 @@
           "delete": true
       },
       "password": "safe809",
-      "bgColor": "bg-orange-400",
+      "avatar": "bg-orange-400",
       "showPermissions": false
   },
   {
@@ -221,7 +221,7 @@
           "delete": false
       },
       "password": "easy978",
-      "bgColor": "bg-violet-400",
+      "avatar": "bg-violet-400",
       "showPermissions": false
   },
   {
@@ -236,7 +236,7 @@
           "delete": true
       },
       "password": "abc536",
-      "bgColor": "bg-yellow-400",
+      "avatar": "bg-yellow-400",
       "showPermissions": false
   },
   {
@@ -251,7 +251,7 @@
           "delete": true
       },
       "password": "pass905",
-      "bgColor": "bg-teal-400",
+      "avatar": "bg-teal-400",
       "showPermissions": false
   },
   {
@@ -266,7 +266,7 @@
           "delete": true
       },
       "password": "123948",
-      "bgColor": "bg-red-400",
+      "avatar": "bg-red-400",
       "showPermissions": false
   },
   {
@@ -281,7 +281,7 @@
           "delete": true
       },
       "password": "abc320",
-      "bgColor": "bg-indigo-400",
+      "avatar": "bg-indigo-400",
       "showPermissions": false
   },
   {
@@ -296,7 +296,7 @@
           "delete": true
       },
       "password": "user280",
-      "bgColor": "bg-violet-400",
+      "avatar": "bg-violet-400",
       "showPermissions": false
   },
   {
@@ -311,7 +311,7 @@
           "delete": true
       },
       "password": "123962",
-      "bgColor": "bg-red-400",
+      "avatar": "bg-red-400",
       "showPermissions": false
   },
   {
@@ -326,7 +326,7 @@
           "delete": false
       },
       "password": "abc460",
-      "bgColor": "bg-sky-400",
+      "avatar": "bg-sky-400",
       "showPermissions": false
   },
   {
@@ -341,7 +341,7 @@
           "delete": true
       },
       "password": "easy404",
-      "bgColor": "bg-lime-400",
+      "avatar": "bg-lime-400",
       "showPermissions": false
   },
   {
@@ -356,7 +356,7 @@
           "delete": false
       },
       "password": "user692",
-      "bgColor": "bg-cyan-400",
+      "avatar": "bg-cyan-400",
       "showPermissions": false
   },
   {
@@ -371,7 +371,7 @@
           "delete": false
       },
       "password": "safe350",
-      "bgColor": "bg-indigo-400",
+      "avatar": "bg-indigo-400",
       "showPermissions": false
   },
   {
@@ -386,7 +386,7 @@
           "delete": true
       },
       "password": "abc142",
-      "bgColor": "bg-amber-400",
+      "avatar": "bg-amber-400",
       "showPermissions": false
   },
   {
@@ -401,7 +401,7 @@
           "delete": true
       },
       "password": "123582",
-      "bgColor": "bg-teal-400",
+      "avatar": "bg-teal-400",
       "showPermissions": false
   },
   {
@@ -416,7 +416,7 @@
           "delete": false
       },
       "password": "123944",
-      "bgColor": "bg-blue-400",
+      "avatar": "bg-blue-400",
       "showPermissions": false
   },
   {
@@ -431,7 +431,7 @@
           "delete": true
       },
       "password": "123923",
-      "bgColor": "bg-rose-400",
+      "avatar": "bg-rose-400",
       "showPermissions": false
   },
   {
@@ -446,7 +446,7 @@
           "delete": true
       },
       "password": "safe898",
-      "bgColor": "bg-green-400",
+      "avatar": "bg-green-400",
       "showPermissions": false
   },
   {
@@ -461,7 +461,7 @@
           "delete": false
       },
       "password": "pass885",
-      "bgColor": "bg-indigo-400",
+      "avatar": "bg-indigo-400",
       "showPermissions": false
   },
   {
@@ -476,7 +476,7 @@
           "delete": true
       },
       "password": "user671",
-      "bgColor": "bg-rose-400",
+      "avatar": "bg-rose-400",
       "showPermissions": false
   },
   {
@@ -491,7 +491,7 @@
           "delete": true
       },
       "password": "abc694",
-      "bgColor": "bg-green-400",
+      "avatar": "bg-green-400",
       "showPermissions": false
   },
   {
@@ -506,7 +506,7 @@
           "delete": true
       },
       "password": "abc998",
-      "bgColor": "bg-lime-400",
+      "avatar": "bg-lime-400",
       "showPermissions": false
   },
   {
@@ -521,7 +521,7 @@
           "delete": true
       },
       "password": "safe497",
-      "bgColor": "bg-teal-400",
+      "avatar": "bg-teal-400",
       "showPermissions": false
   },
   {
@@ -536,7 +536,7 @@
           "delete": true
       },
       "password": "pass269",
-      "bgColor": "bg-rose-400",
+      "avatar": "bg-rose-400",
       "showPermissions": false
   },
   {
@@ -551,7 +551,7 @@
           "delete": false
       },
       "password": "easy480",
-      "bgColor": "bg-indigo-400",
+      "avatar": "bg-indigo-400",
       "showPermissions": false
   },
   {
@@ -566,7 +566,7 @@
           "delete": true
       },
       "password": "user108",
-      "bgColor": "bg-yellow-400",
+      "avatar": "bg-yellow-400",
       "showPermissions": false
   },
   {
@@ -581,7 +581,7 @@
           "delete": false
       },
       "password": "123926",
-      "bgColor": "bg-pink-400",
+      "avatar": "bg-pink-400",
       "showPermissions": false
   },
   {
@@ -596,7 +596,7 @@
           "delete": false
       },
       "password": "pass241",
-      "bgColor": "bg-red-400",
+      "avatar": "bg-red-400",
       "showPermissions": false
   },
   {
@@ -611,7 +611,7 @@
           "delete": true
       },
       "password": "123770",
-      "bgColor": "bg-cyan-400",
+      "avatar": "bg-cyan-400",
       "showPermissions": false
   },
   {
@@ -626,7 +626,7 @@
           "delete": true
       },
       "password": "safe350",
-      "bgColor": "bg-violet-400",
+      "avatar": "bg-violet-400",
       "showPermissions": false
   },
   {
@@ -641,7 +641,7 @@
           "delete": false
       },
       "password": "user124",
-      "bgColor": "bg-fuchsia-400",
+      "avatar": "bg-fuchsia-400",
       "showPermissions": false
   },
   {
@@ -656,7 +656,7 @@
           "delete": true
       },
       "password": "abc315",
-      "bgColor": "bg-violet-400",
+      "avatar": "bg-violet-400",
       "showPermissions": false
   },
   {
@@ -671,7 +671,7 @@
           "delete": true
       },
       "password": "user228",
-      "bgColor": "bg-sky-400",
+      "avatar": "bg-sky-400",
       "showPermissions": false
   },
   {
@@ -686,7 +686,7 @@
           "delete": true
       },
       "password": "123178",
-      "bgColor": "bg-fuchsia-400",
+      "avatar": "bg-fuchsia-400",
       "showPermissions": false
   },
   {
@@ -701,7 +701,7 @@
           "delete": true
       },
       "password": "abc347",
-      "bgColor": "bg-rose-400",
+      "avatar": "bg-rose-400",
       "showPermissions": false
   },
   {
@@ -716,7 +716,7 @@
           "delete": false
       },
       "password": "pass101",
-      "bgColor": "bg-amber-400",
+      "avatar": "bg-amber-400",
       "showPermissions": false
   },
   {
@@ -731,7 +731,7 @@
           "delete": true
       },
       "password": "user899",
-      "bgColor": "bg-green-400",
+      "avatar": "bg-green-400",
       "showPermissions": false
   },
   {
@@ -746,7 +746,7 @@
           "delete": false
       },
       "password": "pass552",
-      "bgColor": "bg-sky-400",
+      "avatar": "bg-sky-400",
       "showPermissions": false
   },
   {
@@ -761,7 +761,7 @@
           "delete": true
       },
       "password": "easy902",
-      "bgColor": "bg-orange-400",
+      "avatar": "bg-orange-400",
       "showPermissions": false
   },
   {
@@ -776,7 +776,7 @@
           "delete": false
       },
       "password": "safe209",
-      "bgColor": "bg-yellow-400",
+      "avatar": "bg-yellow-400",
       "showPermissions": false
   },
   {
@@ -791,7 +791,7 @@
           "delete": false
       },
       "password": "abc118",
-      "bgColor": "bg-amber-400",
+      "avatar": "bg-amber-400",
       "showPermissions": false
   },
   {
@@ -806,7 +806,7 @@
           "delete": true
       },
       "password": "pass894",
-      "bgColor": "bg-violet-400",
+      "avatar": "bg-violet-400",
       "showPermissions": false
   },
   {
@@ -821,7 +821,7 @@
           "delete": true
       },
       "password": "easy110",
-      "bgColor": "bg-red-400",
+      "avatar": "bg-red-400",
       "showPermissions": false
   },
   {
@@ -836,7 +836,7 @@
           "delete": true
       },
       "password": "user167",
-      "bgColor": "bg-purple-400",
+      "avatar": "bg-purple-400",
       "showPermissions": false
   },
   {
@@ -851,7 +851,7 @@
           "delete": false
       },
       "password": "user954",
-      "bgColor": "bg-rose-400",
+      "avatar": "bg-rose-400",
       "showPermissions": false
   },
   {
@@ -866,7 +866,7 @@
           "delete": true
       },
       "password": "user992",
-      "bgColor": "bg-fuchsia-400",
+      "avatar": "bg-fuchsia-400",
       "showPermissions": false
   },
   {
@@ -881,7 +881,7 @@
           "delete": true
       },
       "password": "pass611",
-      "bgColor": "bg-cyan-400",
+      "avatar": "bg-cyan-400",
       "showPermissions": false
   },
   {
@@ -896,7 +896,7 @@
           "delete": false
       },
       "password": "pass893",
-      "bgColor": "bg-teal-400",
+      "avatar": "bg-teal-400",
       "showPermissions": false
   },
   {
@@ -911,7 +911,7 @@
           "delete": true
       },
       "password": "safe119",
-      "bgColor": "bg-cyan-400",
+      "avatar": "bg-cyan-400",
       "showPermissions": false
   },
   {
@@ -926,7 +926,7 @@
           "delete": true
       },
       "password": "easy310",
-      "bgColor": "bg-green-400",
+      "avatar": "bg-green-400",
       "showPermissions": false
   },
   {
@@ -941,7 +941,7 @@
           "delete": true
       },
       "password": "easy784",
-      "bgColor": "bg-teal-400",
+      "avatar": "bg-teal-400",
       "showPermissions": false
   },
   {
@@ -956,7 +956,7 @@
           "delete": true
       },
       "password": "abc437",
-      "bgColor": "bg-green-400",
+      "avatar": "bg-green-400",
       "showPermissions": false
   },
   {
@@ -971,7 +971,7 @@
           "delete": true
       },
       "password": "123127",
-      "bgColor": "bg-fuchsia-400",
+      "avatar": "bg-fuchsia-400",
       "showPermissions": false
   },
   {
@@ -986,7 +986,7 @@
           "delete": false
       },
       "password": "safe237",
-      "bgColor": "bg-lime-400",
+      "avatar": "bg-lime-400",
       "showPermissions": false
   },
   {
@@ -1001,7 +1001,7 @@
           "delete": false
       },
       "password": "pass809",
-      "bgColor": "bg-yellow-400",
+      "avatar": "bg-yellow-400",
       "showPermissions": false
   },
   {
@@ -1016,7 +1016,7 @@
           "delete": true
       },
       "password": "pass621",
-      "bgColor": "bg-red-400",
+      "avatar": "bg-red-400",
       "showPermissions": false
   },
   {
@@ -1031,7 +1031,7 @@
           "delete": true
       },
       "password": "easy563",
-      "bgColor": "bg-cyan-400",
+      "avatar": "bg-cyan-400",
       "showPermissions": false
   },
   {
@@ -1046,7 +1046,7 @@
           "delete": true
       },
       "password": "abc782",
-      "bgColor": "bg-violet-400",
+      "avatar": "bg-violet-400",
       "showPermissions": false
   },
   {
@@ -1061,7 +1061,7 @@
           "delete": false
       },
       "password": "easy218",
-      "bgColor": "bg-indigo-400",
+      "avatar": "bg-indigo-400",
       "showPermissions": false
   },
   {
@@ -1076,7 +1076,7 @@
           "delete": true
       },
       "password": "easy439",
-      "bgColor": "bg-fuchsia-400",
+      "avatar": "bg-fuchsia-400",
       "showPermissions": false
   },
   {
@@ -1091,7 +1091,7 @@
           "delete": false
       },
       "password": "abc577",
-      "bgColor": "bg-rose-400",
+      "avatar": "bg-rose-400",
       "showPermissions": false
   },
   {
@@ -1106,7 +1106,7 @@
           "delete": false
       },
       "password": "123390",
-      "bgColor": "bg-purple-400",
+      "avatar": "bg-purple-400",
       "showPermissions": false
   },
   {
@@ -1121,7 +1121,7 @@
           "delete": true
       },
       "password": "abc346",
-      "bgColor": "bg-lime-400",
+      "avatar": "bg-lime-400",
       "showPermissions": false
   },
   {
@@ -1136,7 +1136,7 @@
           "delete": true
       },
       "password": "user931",
-      "bgColor": "bg-red-400",
+      "avatar": "bg-red-400",
       "showPermissions": false
   },
   {
@@ -1151,7 +1151,7 @@
           "delete": true
       },
       "password": "easy796",
-      "bgColor": "bg-lime-400",
+      "avatar": "bg-lime-400",
       "showPermissions": false
   },
   {
@@ -1166,7 +1166,7 @@
           "delete": true
       },
       "password": "safe373",
-      "bgColor": "bg-pink-400",
+      "avatar": "bg-pink-400",
       "showPermissions": false
   },
   {
@@ -1181,7 +1181,7 @@
           "delete": true
       },
       "password": "user173",
-      "bgColor": "bg-green-400",
+      "avatar": "bg-green-400",
       "showPermissions": false
   },
   {
@@ -1196,7 +1196,7 @@
           "delete": true
       },
       "password": "safe725",
-      "bgColor": "bg-pink-400",
+      "avatar": "bg-pink-400",
       "showPermissions": false
   },
   {
@@ -1211,7 +1211,7 @@
           "delete": false
       },
       "password": "user920",
-      "bgColor": "bg-indigo-400",
+      "avatar": "bg-indigo-400",
       "showPermissions": false
   },
   {
@@ -1226,7 +1226,7 @@
           "delete": true
       },
       "password": "safe688",
-      "bgColor": "bg-fuchsia-400",
+      "avatar": "bg-fuchsia-400",
       "showPermissions": false
   },
   {
@@ -1241,7 +1241,7 @@
           "delete": true
       },
       "password": "abc325",
-      "bgColor": "bg-amber-400",
+      "avatar": "bg-amber-400",
       "showPermissions": false
   },
   {
@@ -1256,7 +1256,7 @@
           "delete": true
       },
       "password": "user534",
-      "bgColor": "bg-green-400",
+      "avatar": "bg-green-400",
       "showPermissions": false
   },
   {
@@ -1271,7 +1271,7 @@
           "delete": false
       },
       "password": "safe380",
-      "bgColor": "bg-cyan-400",
+      "avatar": "bg-cyan-400",
       "showPermissions": false
   },
   {
@@ -1286,7 +1286,7 @@
           "delete": true
       },
       "password": "easy876",
-      "bgColor": "bg-indigo-400",
+      "avatar": "bg-indigo-400",
       "showPermissions": false
   },
   {
@@ -1301,7 +1301,7 @@
           "delete": true
       },
       "password": "easy957",
-      "bgColor": "bg-orange-400",
+      "avatar": "bg-orange-400",
       "showPermissions": false
   },
   {
@@ -1316,7 +1316,7 @@
           "delete": true
       },
       "password": "pass663",
-      "bgColor": "bg-teal-400",
+      "avatar": "bg-teal-400",
       "showPermissions": false
   },
   {
@@ -1331,7 +1331,7 @@
           "delete": false
       },
       "password": "easy256",
-      "bgColor": "bg-blue-400",
+      "avatar": "bg-blue-400",
       "showPermissions": false
   },
   {
@@ -1346,7 +1346,7 @@
           "delete": true
       },
       "password": "user727",
-      "bgColor": "bg-orange-400",
+      "avatar": "bg-orange-400",
       "showPermissions": false
   },
   {
@@ -1361,7 +1361,7 @@
           "delete": true
       },
       "password": "user550",
-      "bgColor": "bg-yellow-400",
+      "avatar": "bg-yellow-400",
       "showPermissions": false
   },
   {
@@ -1376,7 +1376,7 @@
           "delete": false
       },
       "password": "safe680",
-      "bgColor": "bg-pink-400",
+      "avatar": "bg-pink-400",
       "showPermissions": false
   },
   {
@@ -1391,7 +1391,7 @@
           "delete": true
       },
       "password": "123673",
-      "bgColor": "bg-blue-400",
+      "avatar": "bg-blue-400",
       "showPermissions": false
   },
   {
@@ -1406,7 +1406,7 @@
           "delete": true
       },
       "password": "safe286",
-      "bgColor": "bg-teal-400",
+      "avatar": "bg-teal-400",
       "showPermissions": false
   },
   {
@@ -1421,7 +1421,7 @@
           "delete": true
       },
       "password": "safe731",
-      "bgColor": "bg-lime-400",
+      "avatar": "bg-lime-400",
       "showPermissions": false
   },
   {
@@ -1436,7 +1436,7 @@
           "delete": true
       },
       "password": "easy339",
-      "bgColor": "bg-cyan-400",
+      "avatar": "bg-cyan-400",
       "showPermissions": false
   },
   {
@@ -1451,7 +1451,7 @@
           "delete": true
       },
       "password": "abc244",
-      "bgColor": "bg-violet-400",
+      "avatar": "bg-violet-400",
       "showPermissions": false
   },
   {
@@ -1466,7 +1466,7 @@
           "delete": true
       },
       "password": "pass157",
-      "bgColor": "bg-pink-400",
+      "avatar": "bg-pink-400",
       "showPermissions": false
   },
   {
@@ -1481,7 +1481,7 @@
           "delete": false
       },
       "password": "pass788",
-      "bgColor": "bg-green-400",
+      "avatar": "bg-green-400",
       "showPermissions": false
   },
   {
@@ -1496,7 +1496,7 @@
           "delete": true
       },
       "password": "abc796",
-      "bgColor": "bg-indigo-400",
+      "avatar": "bg-indigo-400",
       "showPermissions": false
   }
 ]

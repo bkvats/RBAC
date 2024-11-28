@@ -8,7 +8,6 @@ export default function AuthLayout() {
     const {isLoading, isLoggedIn, currentUser} = useSelector(state => state.user);
     const navigate = useNavigate();
     useEffect(() => {
-        console.log(isLoading, isLoggedIn);
         if (!isLoading && !isLoggedIn) navigate("/login");
     }, [isLoading, isLoggedIn]);
     if (isLoading) return;

@@ -4,7 +4,7 @@ import { displayToast, setShowToast } from "../store/toastSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { displayLoader, setIsLoading } from "../store/loaderSlice";
 import { login } from "../store/userSlice";
-import database from "../../public/database.json"
+import database from "../database.json"
 
 export default function Login() {
     const db = localStorage.getItem("database") || database;

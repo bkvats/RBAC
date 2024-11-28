@@ -2,7 +2,12 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  safelist: [
+    {
+      pattern: /^bg-(red|blue|green|yellow|purple|pink|orange|teal|indigo|amber|cyan|lime|fuchsia|rose|sky|violet)-400$/,
+    },
   ],
   theme: {
     extend: {

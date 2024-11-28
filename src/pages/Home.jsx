@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaUsers } from "react-icons/fa6";
 import { FaUserGear } from "react-icons/fa6";
 import { MdOutlineSecurity } from "react-icons/md";
@@ -61,8 +61,8 @@ export default function Home() {
                             </span>
                             <p className="my-8 leading-relaxed text-xl text-gray-500 dark:text-gray-400 font-light w-[90%]">Manage user roles and permissions effortlessly with this Role-Based Access Control solution.</p>
                             <div className="flex justify-center">
-                                <NavLink to={isLoggedIn ? "/dashboard" : "/login"} className="text-white  py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">{isLoggedIn ? "Dashboard" : "Try Now"}</NavLink>
-                                <NavLink className="ml-4 text-gray-700 bg-gray-100 border-2 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Read Docs</NavLink>
+                                <Link to={isLoggedIn ? "/dashboard" : "/login"} className="text-white bg-orange-500  py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">{isLoggedIn ? "Dashboard" : "Try Now"}</Link>
+                                <a href="https://github.com/bkvats/RBAC" target="_blank" className="ml-4 text-gray-700 bg-gray-100 border-2 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Read Docs</a>
                             </div>
                         </div>
                     </div>
@@ -86,14 +86,14 @@ export default function Home() {
                     </div>
                 </section>
                 <section className="third-card">
-                    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+                    <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                         <h2 className="mb-8 text-4xl tracking-tight text-orange-500">Frequently asked questions</h2>
-                        <div class="grid pt-8 text-left border-t border-gray-300 md:gap-16 dark:border-gray-700 md:grid-cols-2">
+                        <div className="grid pt-8 text-left border-t border-gray-300 md:gap-16 dark:border-gray-700 md:grid-cols-2">
                             {
                                 faqs.map(i => (
                                     <div className="mb-10" key={i.question}>
                                         <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                                            <svg className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
+                                            <svg className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd"></path></svg>
                                             {i.question}
                                         </h3>
                                         <p className="text-gray-500 dark:text-gray-400 font-light">{i.answer}</p>
